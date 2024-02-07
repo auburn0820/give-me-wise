@@ -15,4 +15,10 @@
     <applicationListeners>
         <listener class="com.github.auburn0820.givemewise.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
+
+    <actions>
+        <action id="EditorPopUpAction" class="com.github.auburn0820.givemewise.actions.EditorPopUpAction" text="TEST">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
 </idea-plugin>
